@@ -28,3 +28,30 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
 }
+input[type=submit] {
+    background-color: #056b5b;
+    /*color: white;*/
+    text-align: center;
+    
+}
+
+
+button {
+    background-color: green;
+    
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+    opacity: 0.9;
+}
+
+
+
+form {
+
+    padding: 20px;
+    width: 100vh;
+    
+}
