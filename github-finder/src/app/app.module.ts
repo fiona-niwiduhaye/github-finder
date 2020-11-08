@@ -8,6 +8,12 @@ import { SearchFormComponent } from './search-form/search-form.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { UserComponent } from './user/user.component';
 import { UpperCasePipe } from './upper-case.pipe';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+//import { NgProgressModule } from '@ngx-progressbar/core';
+//import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +26,14 @@ import { UpperCasePipe } from './upper-case.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+   // NgProgressModule.forRoot(),
+    //NgProgressHttpClientModule,
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
